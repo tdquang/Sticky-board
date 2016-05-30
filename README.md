@@ -4,7 +4,8 @@ This is a personal project that utilizes React.js to create a sticky notes board
 
 ## To use
 
-The simple server implemented with Flask serves static files from `public/` and handle requests to `/api/comments` to fetch or add data. Start a server by doing the following:
+I implemented a simple serve with Python Flask to serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. 
+Start your own server by doing the following:
 
 ### Python
 
