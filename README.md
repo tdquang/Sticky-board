@@ -1,10 +1,10 @@
 # Board App
 
-This is a personal project that utilizes React.js to create a sticky notes board. The purpose of this app is to create an environment where programmers can leave sticky notes to their team members. All notes are synchronized with a json file, making it so that any changes a user makes would be saved and syncronized with everyone else's boards. 
+This is a personal project that utilizes React.js to implement a sticky notes board. The purpose of this app is to create an environment where users can leave sticky notes to their team members. All notes are synchronized with a json file, making it so that any changes a user makes would be saved and syncronized with everyone else's boards. 
 
 ## To use
 
-I implemented a simple serve with Python Flask to serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. 
+I implemented a simple server with Python Flask to serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. 
 Start your own server by doing the following:
 
 ### Python
@@ -23,4 +23,10 @@ To delete a sticky note, first hover your mouse to a note you want to delete. An
 ## Changing the port
 
 You can change the port number by setting the `$PORT` environment variable.
+
+## TODO
+
+Link project to a MongoDB server. Use MongoDB instead of JSON file.
+Add a side chat where users can communicate with their team members.
+Add Flux flow (as a practice)
 
