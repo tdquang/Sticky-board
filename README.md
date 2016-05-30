@@ -1,19 +1,10 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+# Board App
 
-# React Tutorial
-
-This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
+This project utilizes React.js to create a sticky notes board. 
 
 ## To use
 
-There are several simple server implementations included. They all serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. Start a server with one of the following:
-
-### Node
-
-```sh
-npm install
-node server.js
-```
+This simple server implementation serves static files from `public/` and handle requests to `/api/comments` to fetch or add data. Start a server by doing the following:
 
 ### Python
 
@@ -22,35 +13,11 @@ pip install -r requirements.txt
 python server.py
 ```
 
-### Ruby
-```sh
-ruby server.rb
-```
 
-### PHP
-```sh
-php server.php
-```
-
-### Go
-```sh
-go run server.go
-```
-
-### Perl
-
-```sh
-cpan Mojolicious
-perl server.pl
-```
-
-And visit <http://localhost:3000/>. Try opening multiple tabs!
+And visit <http://localhost:4000/>. Try opening multiple tabs.
 
 ## Changing the port
 
-You can change the port number by setting the `$PORT` environment variable before invoking any of the scripts above, e.g.,
+You can change the port number by setting the `$PORT` environment variable.
 
-```sh
-PORT=3001 node server.js
-```
 # Sticky-board.-
