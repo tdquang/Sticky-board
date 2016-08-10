@@ -26,7 +26,6 @@ You can change the port number by setting the `$PORT` environment variable.
 
 ## TODO
 
-Link project to a MongoDB server. Use MongoDB instead of JSON file.
+Link project to a MongoDB server and use it to fetch JSON data instead.
 Add a side chat where users can communicate with their team members.
-Add Flux flow (as a practice)
 
